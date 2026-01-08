@@ -31,6 +31,7 @@ CALCULADORA-OBESIDADE/
 ├── notebooks/         # Arquivos da extapa de exploração de dados, treinamento do modelo e criação da pipeline
 ├── src/               # Códigos fonte da aplicação produtiva (pipeline de treinamento do modelo de machine learning e aplicação streamlit)
 └── requirements.txt   # Dependências do projeto
+```
 
 ## 🔎 Análise e engenharia de feature
 
