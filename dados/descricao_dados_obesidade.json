@@ -1,0 +1,20 @@
+{
+    "Gender": "Genero",
+    "Age": "Idade",
+    "Height": "Altura em metros",
+    "Weight": "Peso em kgs.",
+    "family_history": "Algum membro da familia sofreu ou sofre de excesso de peso?",
+    "FAVC": "Voce come alimentos altamente caloricos com frequencia?",
+    "FCVC": "Voce costuma comer vegetais nas suas refeicoes?",
+    "NCP": "Quantas refeicoes principais voce faz diariamente?",
+    "CAEC": "Voce come alguma coisa entre as refeicoes?",
+    "SMOKE": "Voce fuma?",
+    "CH2O": "Quanta agua voce bebe diariamente?",
+    "SCC": "Voce monitora as calorias que ingere diariamente?",
+    "FAF": "Com que frequencia voce pratica atividade fisica?",
+    "TUE": "Quanto tempo voce usa dispositivos tecnologicos como celular,",
+    "CALC": "Com que frequencia voce bebe alcool?",
+    "MTRANS": "Qual meio de transporte voce costuma usar?",
+    "Obesity": "Classifica o nivel de obesidade da amostra."
+
+}
