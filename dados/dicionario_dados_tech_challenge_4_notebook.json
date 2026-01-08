@@ -1,0 +1,471 @@
+{
+    "genero": {
+        "nome_original": "Gender",
+        "tipo_coluna": "original",
+        "novo_nome": "genero",
+        "descricao": "Genero",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'Gender' para 'genero'."
+        }
+    },
+    "idade": {
+        "nome_original": "Age",
+        "tipo_coluna": "original",
+        "novo_nome": "idade",
+        "descricao": "Idade",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'Age' para 'idade'."
+        }
+    },
+    "altura": {
+        "nome_original": "Height",
+        "tipo_coluna": "original",
+        "novo_nome": "altura",
+        "descricao": "Altura em metros",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'Height' para 'altura'."
+        }
+    },
+    "peso": {
+        "nome_original": "Weight",
+        "tipo_coluna": "original",
+        "novo_nome": "peso",
+        "descricao": "Peso em kgs.",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'Weight' para 'peso'."
+        }
+    },
+    "historico_familiar": {
+        "nome_original": "family_history",
+        "tipo_coluna": "original",
+        "novo_nome": "historico_familiar",
+        "descricao": "Algum membro da familia sofreu ou sofre de excesso de peso?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'family_history' para 'historico_familiar'."
+        }
+    },
+    "favc": {
+        "nome_original": "FAVC",
+        "tipo_coluna": "original",
+        "novo_nome": "favc",
+        "descricao": "Voce come alimentos altamente caloricos com frequencia?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'FAVC' para 'favc'."
+        }
+    },
+    "fcvc": {
+        "nome_original": "FCVC",
+        "tipo_coluna": "original",
+        "novo_nome": "fcvc",
+        "descricao": "Voce costuma comer vegetais nas suas refeicoes?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'FCVC' para 'fcvc'."
+        }
+    },
+    "ncp": {
+        "nome_original": "NCP",
+        "tipo_coluna": "original",
+        "novo_nome": "ncp",
+        "descricao": "Quantas refeicoes principais voce faz diariamente?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'NCP' para 'ncp'."
+        }
+    },
+    "caec": {
+        "nome_original": "CAEC",
+        "tipo_coluna": "original",
+        "novo_nome": "caec",
+        "descricao": "Voce come alguma coisa entre as refeicoes?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'CAEC' para 'caec'.",
+            "tipo": "mapeamento_string_para_string",
+            "mapa_aplicado": {
+                "no": "nunca",
+                "Sometimes": "as_vezes",
+                "Frequently": "frequentemente",
+                "Always": "sempre"
+            }
+        }
+    },
+    "fumante": {
+        "nome_original": "SMOKE",
+        "tipo_coluna": "original",
+        "novo_nome": "fumante",
+        "descricao": "Voce fuma?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'SMOKE' para 'fumante'."
+        }
+    },
+    "ch20": {
+        "nome_original": "CH2O",
+        "tipo_coluna": "original",
+        "novo_nome": "ch20",
+        "descricao": "Quanta agua voce bebe diariamente?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'CH2O' para 'ch20'."
+        }
+    },
+    "scc": {
+        "nome_original": "SCC",
+        "tipo_coluna": "original",
+        "novo_nome": "scc",
+        "descricao": "Voce monitora as calorias que ingere diariamente?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'SCC' para 'scc'."
+        }
+    },
+    "faf": {
+        "nome_original": "FAF",
+        "tipo_coluna": "original",
+        "novo_nome": "faf",
+        "descricao": "Com que frequencia voce pratica atividade fisica?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'FAF' para 'faf'."
+        }
+    },
+    "tue": {
+        "nome_original": "TUE",
+        "tipo_coluna": "original",
+        "novo_nome": "tue",
+        "descricao": "Quanto tempo voce usa dispositivos tecnologicos como celular,",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'TUE' para 'tue'."
+        }
+    },
+    "calc": {
+        "nome_original": "CALC",
+        "tipo_coluna": "original",
+        "novo_nome": "calc",
+        "descricao": "Com que frequencia voce bebe alcool?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'CALC' para 'calc'.",
+            "tipo": "mapeamento_string_para_string",
+            "mapa_aplicado": {
+                "no": "nunca",
+                "Sometimes": "as_vezes",
+                "Frequently": "frequentemente",
+                "Always": "sempre"
+            }
+        }
+    },
+    "mtrans": {
+        "nome_original": "MTRANS",
+        "tipo_coluna": "original",
+        "novo_nome": "mtrans",
+        "descricao": "Qual meio de transporte voce costuma usar?",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'MTRANS' para 'mtrans'.",
+            "tipo": "mapeamento_string_para_string",
+            "mapa_aplicado": {
+                "Automobile": "carro",
+                "Bike": "bicicleta",
+                "Motorbike": "moto",
+                "Public_Transportation": "transporte_publico",
+                "Walking": "caminhando"
+            }
+        }
+    },
+    "classificacao_peso_corporal": {
+        "nome_original": "Obesity",
+        "tipo_coluna": "original",
+        "novo_nome": "classificacao_peso_corporal",
+        "descricao": "Classifica o nivel de obesidade da amostra.",
+        "transformacao": {
+            "transformacao_1": "Renomeada de 'Obesity' para 'classificacao_peso_corporal'.",
+            "tipo": "mapeamento_string_para_string",
+            "mapa_aplicado": {
+                "Normal_Weight": "peso_normal",
+                "Overweight_Level_I": "sobrepeso_tipo_1",
+                "Overweight_Level_II": "sobrepeso_tipo_2",
+                "Obesity_Type_I": "obesidade_tipo_1",
+                "Insufficient_Weight": "peso_insuficiente",
+                "Obesity_Type_II": "obesidade_tipo_2",
+                "Obesity_Type_III": "obesidade_tipo_3"
+            }
+        }
+    },
+    "imc": {
+        "nome_original": "imc",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "IMC(Indice de Massa Corporal)\nMedida internacional usada para avaliar se uma pessoa esta no seu peso ideal em relacao a sua altura.\nIndicador simples da OMS que ajuda a identificar quadros de magreza, peso normal,sobrepeso ou obesidade.\nCalculo: imc = peso/(altura*altura)",
+        "transformacao": {}
+    },
+    "classificacao_imc": {
+        "nome_original": "classificacao_imc",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Classificacao do IMC baseada nas faixas de valores:\n- abaixo_do_peso: IMC < 18.50\n- peso_normal: IMC >= 18.50 e IMC < 25\n- sobrepeso: IMC >= 25 e IMC < 30\n- obesidade_grau_1: IMC >= 30 e IMC < 35\n- obesidade_grau_2: IMC >= 35 e IMC < 40\n- obesidade_grau_3: IMC >= 40",
+        "transformacao": {}
+    },
+    "classificacao_peso_corporal_traduzido": {
+        "nome_original": "classificacao_peso_corporal_traduzido",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {}
+    },
+    "fcvc_arredondada": {
+        "nome_original": "fcvc_arredondada",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {}
+    },
+    "ncp_arredondada": {
+        "nome_original": "ncp_arredondada",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {}
+    },
+    "ch20_arredondada": {
+        "nome_original": "ch20_arredondada",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {}
+    },
+    "faf_arredondada": {
+        "nome_original": "faf_arredondada",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {}
+    },
+    "tue_arredondada": {
+        "nome_original": "tue_arredondada",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {}
+    },
+    "mtrans_mod": {
+        "nome_original": "mtrans_mod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Vari\u00e1vel 'mtrans' com categorias raras (caminhando, moto, bicicleta) agrupadas em 'outros'.",
+        "transformacao": {
+            "tipo": "agrupamento_categorias",
+            "mapa_aplicado": {
+                "transporte_publico": "transporte_publico",
+                "carro": "carro",
+                "caminhando": "outros",
+                "moto": "outros",
+                "bicicleta": "outros"
+            },
+            "transformacao_3": "Aplicado One-Hot Encoding (coluna original 'mtrans_mod' removida)"
+        }
+    },
+    "calc_mod": {
+        "nome_original": "calc_mod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": null,
+        "transformacao": {
+            "tipo": "agrupamento_categorias",
+            "mapa_aplicado": {
+                "nunca": "nunca",
+                "as_vezes": "as_vezes",
+                "frequentemente": "freq_sempre",
+                "sempre": "freq_sempre"
+            }
+        }
+    },
+    "classificacao_peso_corporal_rcod": {
+        "nome_original": "classificacao_peso_corporal_rcod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Vari\u00e1vel 'classificacao_peso_corporal' codificada numericamente via scikit-learn LabelEncoder.",
+        "transformacao": {
+            "tipo": "label_encoding_sklearn",
+            "classe_codificada": [
+                "obesidade_tipo_1",
+                "obesidade_tipo_2",
+                "obesidade_tipo_3",
+                "peso_insuficiente",
+                "peso_normal",
+                "sobrepeso_tipo_1",
+                "sobrepeso_tipo_2"
+            ]
+        }
+    },
+    "genero_rcod": {
+        "nome_original": "genero_rcod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Vari\u00e1vel 'genero' codificada numericamente via scikit-learn LabelEncoder.",
+        "transformacao": {
+            "tipo": "label_encoding_sklearn",
+            "classe_codificada": [
+                "Female",
+                "Male"
+            ]
+        }
+    },
+    "historico_familiar_rcod": {
+        "nome_original": "historico_familiar_rcod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Vari\u00e1vel 'historico_familiar' codificada numericamente via scikit-learn LabelEncoder.",
+        "transformacao": {
+            "tipo": "label_encoding_sklearn",
+            "classe_codificada": [
+                "no",
+                "yes"
+            ]
+        }
+    },
+    "favc_rcod": {
+        "nome_original": "favc_rcod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Vari\u00e1vel 'favc' codificada numericamente via scikit-learn LabelEncoder.",
+        "transformacao": {
+            "tipo": "label_encoding_sklearn",
+            "classe_codificada": [
+                "no",
+                "yes"
+            ]
+        }
+    },
+    "scc_rcod": {
+        "nome_original": "scc_rcod",
+        "tipo_coluna": "criada",
+        "novo_nome": null,
+        "descricao": "Vari\u00e1vel 'scc' codificada numericamente via scikit-learn LabelEncoder.",
+        "transformacao": {
+            "tipo": "label_encoding_sklearn",
+            "classe_codificada": [
+                "no",
+                "yes"
+            ]
+        }
+    },
+    "mtrans_mod_outros": {
+        "nome_original": "mtrans_mod",
+        "tipo_coluna": "criada_ohe",
+        "novo_nome": "mtrans_mod_outros",
+        "descricao": "Representa a categoria 'outros' da vari\u00e1vel original 'mtrans_mod'. Descri\u00e7\u00e3o original: Vari\u00e1vel 'mtrans' com categorias raras (caminhando, moto, bicicleta) agrupadas em 'outros'.",
+        "transformacao": {
+            "transformacao_1": "Criada via One-Hot Encoding da coluna 'mtrans_mod' (representa a categoria 'outros')"
+        }
+    },
+    "mtrans_mod_transporte_publico": {
+        "nome_original": "mtrans_mod",
+        "tipo_coluna": "criada_ohe",
+        "novo_nome": "mtrans_mod_transporte_publico",
+        "descricao": "Representa a categoria 'transporte_publico' da vari\u00e1vel original 'mtrans_mod'. Descri\u00e7\u00e3o original: Vari\u00e1vel 'mtrans' com categorias raras (caminhando, moto, bicicleta) agrupadas em 'outros'.",
+        "transformacao": {
+            "transformacao_1": "Criada via One-Hot Encoding da coluna 'mtrans_mod' (representa a categoria 'transporte_publico')"
+        }
+    },
+    "caec_ocod": {
+        "nome_original": "caec",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "caec_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'caec'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "nunca": 0,
+                "as_vezes": 1,
+                "frequentemente": 2,
+                "sempre": 3
+            }
+        }
+    },
+    "calc_mod_ocod": {
+        "nome_original": "calc_mod",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "calc_mod_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'calc_mod'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "nunca": 0,
+                "as_vezes": 1,
+                "freq_sempre": 2
+            }
+        }
+    },
+    "fcvc_arredondada_ocod": {
+        "nome_original": "fcvc_arredondada",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "fcvc_arredondada_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'fcvc_arredondada'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "1": 0,
+                "2": 1,
+                "3": 2
+            }
+        }
+    },
+    "ncp_arredondada_ocod": {
+        "nome_original": "ncp_arredondada",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "ncp_arredondada_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'ncp_arredondada'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "1": 0,
+                "2": 1,
+                "3": 2,
+                "4": 3
+            }
+        }
+    },
+    "ch20_arredondada_ocod": {
+        "nome_original": "ch20_arredondada",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "ch20_arredondada_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'ch20_arredondada'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "1": 0,
+                "2": 1,
+                "3": 2
+            }
+        }
+    },
+    "faf_arredondada_ocod": {
+        "nome_original": "faf_arredondada",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "faf_arredondada_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'faf_arredondada'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    },
+    "tue_arredondada_ocod": {
+        "nome_original": "tue_arredondada",
+        "tipo_coluna": "criada_encoded_ordinal",
+        "novo_nome": "tue_arredondada_ocod",
+        "descricao": "Coluna codificada numericamente via Ordinal Encoding da coluna original 'tue_arredondada'.",
+        "transformacao": {
+            "transformacao_1": "Aplicado Ordinal Encoding",
+            "tipo": "ordinal_encoding",
+            "mapa_aplicado": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            }
+        }
+    }
+}
