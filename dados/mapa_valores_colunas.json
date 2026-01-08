@@ -1,0 +1,115 @@
+{
+  "mapeamento_genero":  {
+    "valores_originais_genero": [
+      "Female",
+      "Male"
+    ],
+    "transformacao_genero": {
+      "Female": "feminino",
+      "Male": "masculino"
+    }
+  },
+  "mapeamento_sim_nao": {
+    "valores_originais_sim_nao": [
+      "no",
+      "yes"
+    ],
+    "transformacao_sim_nao": {
+      "no": "nao",
+      "yes": "sim"
+    }
+  },
+  "mapeamento_frequencia": {
+    "valores_originais_frequencia": [
+      "no",
+      "Sometimes",
+      "Frequently",
+      "Always"  
+    ],
+    "valores_novos_frequencia": {
+      "no": "nunca",
+      "Sometimes": "as_vezes",
+      "Frequently": "frequentemente",
+      "Always": "sempre"   
+    },
+    "ordem_frequencia": [
+      "nunca",
+      "as_vezes",
+      "frequentemente",
+      "sempre"
+    ],
+    "transformacao_frequencia": {
+      "no": 0,
+      "Sometimes": 1,
+      "Frequently": 2,
+      "Always": 3   
+    }
+  },
+  "mapeamento_mtrans":{
+    "valores_originais_mtrans": [
+      "Automobile",
+      "Bike",
+      "Motorbike",
+      "Public_Transportation",
+      "Walking"
+    ],
+    "valores_novos_mtrans": {
+      "Automobile": "carro",
+      "Bike": "bicicleta",
+      "Motorbike": "moto",
+      "Public_Transportation": "transporte_publico",
+      "Walking": "caminhando"
+    },
+    "transformacao_mtrans": {
+      "Automobile": 0,
+      "Bike": 1,
+      "Motorbike": 2,
+      "Public_Transportation": 3,
+      "Walking": 4
+    }
+  },
+  "mapeamento_classificacao_peso_corporal": {
+      "valores_originais": [
+        "Normal_Weight",
+        "Overweight_Level_I",
+        "Overweight_Level_II",
+        "Obesity_Type_I",
+        "Insufficient_Weight",
+        "Obesity_Type_II",
+        "Obesity_Type_III"
+    ], 
+    "valores_novos_classificacao_peso_corporal":{
+      "Normal_Weight": "peso_normal",
+      "Overweight_Level_I": "sobrepeso_tipo_1",
+      "Overweight_Level_II": "sobrepeso_tipo_2",
+      "Obesity_Type_I": "obesidade_tipo_1",
+      "Insufficient_Weight": "peso_insuficiente",
+      "Obesity_Type_II": "obesidade_tipo_2",
+      "Obesity_Type_III": "obesidade_tipo_3"
+    },
+    "ordem_classificao_peso_corporal": [
+      "peso_insuficiente",
+      "peso_normal",
+      "sobrepeso_tipo_1",
+      "sobrepeso_tipo_2",
+      "obesidade_tipo_1",
+      "obesidade_tipo_2",
+      "obesidade_tipo_3"
+    ],     
+    "transformacao_classificacao_peso_corporal": {
+      "Normal_Weight": 0,
+      "Overweight_Level_I": 1,
+      "Overweight_Level_II": 2,
+      "Obesity_Type_I": 3,
+      "Insufficient_Weight": 4,
+      "Obesity_Type_II": 5,
+      "Obesity_Type_III": 6
+    }
+  }
+
+    
+    
+
+
+}
+

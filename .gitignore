@@ -1,0 +1,29 @@
+# =========================
+# Ambiente virtual
+# =========================
+.venv/
+# =========================
+# Cache do Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# =========================
+# Sistema operacional
+# =========================
+# Windows
+Thumbs.db
+Desktop.ini
+# =========================
+# Arquivos de ambiente
+# =========================
+.env
+.env.*

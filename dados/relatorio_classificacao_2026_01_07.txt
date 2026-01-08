@@ -1,0 +1,16 @@
+=== RELATÓRIO DE PERFORMANCE DO MODELO ===
+Acurácia Geral: 83.69%
+-------------------------------------------
+                   precision    recall  f1-score   support
+
+ obesidade_tipo_1       0.82      0.89      0.85        70
+ obesidade_tipo_2       0.89      0.93      0.91        60
+ obesidade_tipo_3       0.98      1.00      0.99        65
+peso_insuficiente       0.77      0.89      0.83        54
+      peso_normal       0.72      0.72      0.72        58
+ sobrepeso_tipo_1       0.85      0.67      0.75        58
+ sobrepeso_tipo_2       0.81      0.72      0.76        58
+
+         accuracy                           0.84       423
+        macro avg       0.83      0.83      0.83       423
+     weighted avg       0.84      0.84      0.83       423

@@ -1,0 +1,19 @@
+{
+    "Gender": "genero",
+    "Age": "idade",
+    "Height": "altura",
+    "Weight": "peso",
+    "family_history": "historico_familiar",
+    "FAVC": "favc",
+    "FCVC": "fcvc",
+    "NCP": "ncp",
+    "CAEC": "caec",
+    "SMOKE": "fumante",
+    "CH2O": "ch20",
+    "SCC": "scc",
+    "FAF": "faf",
+    "TUE": "tue",
+    "CALC": "calc",
+    "MTRANS": "mtrans",
+    "Obesity": "classificacao_peso_corporal"
+}
